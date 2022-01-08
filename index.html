@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+	<title>Emile's Website</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Website for Emile to practice HTML, CSS and JavaScript. He might come back here later to see how stuff works.">
+	<meta name="keywords" content="Emile, practise, HTML, CSS, JavaScript">
+	<meta name="author" content="Emile">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="10000">
+
+</head>
+
+
+<body style="background-color:#ECDBBA;">
+	<!--audio-->
+	<audio controls>
+		<source src="Snowy Peaks pt I - Chris Haugen.mp3">
+		<source src="Snowy Peaks pt I - Chris Haugen.wav">
+		This browser does not support HTML5 audio.
+	</audio>
+	
+	<!--heading-->
+	<h1>Welcome to my website</h1>
+	<!--Je kan ook kleinere titels maken door h2, h3 etc. te gebruiken.-->
+	<hr>
+	<br>
+
+	<form action="action_page.php" method="POST">
+		<div>
+			<label for="fname">first name:</label>
+			<input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+	
+		</div>
+		
+		<br>
+
+		<div>
+			<label for="lname">last name:</label>
+			<input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+	
+		</div>
+
+		<br>
+
+		<div>
+			<label for="pass">password:</label>
+			<input type="password" id="pass" name="pass" maxlength="12" placeholder="max 12 characters" required>
+		</div>
+
+		<br>
+
+		<div>
+			<label for="email">email:</label>
+			<input type="email" id="email" name="email" placeholder="yabi@dabidoo.com" required>
+		</div>
+
+		<br>
+
+		<div>
+			<label for="phone">phone number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="(+31) 6 12345678">
+		</div>
+
+		<br>
+
+		<div>
+			<label for="bdate">date of birth:</label>
+			<input type="date" id="bdate" name="bdate" required>
+		</div>
+
+		<br>
+
+		<div>
+			<label for="quantity">quantity:</label>
+			<input type="number" id="quantity" name="quantity" required min="0" max="99" value="1">
+		</div>
+
+		<br>
+
+		<div>
+			<label for="title">title:</label>
+			
+			<label for='Mr.'>Mr.</label>
+			<input type="radio" id="Mr." name="title" value="Mr.">
+
+			<label for="Mrs.">Mrs.</label>
+			<input type="radio" id="Mrs." name="title" value="Mrs.">
+
+			<label for="PhD.">PhD.</label>
+			<input type="radio" id="PhD." name="title" value="PhD.">
+		</div>
+
+		<br>
+
+		<div>
+			<label for="payment">payment:</label>
+			<select id="payment" name="payment">
+				<option value="visa">visa</option>
+				<option value="mastercard">mastercard</option>
+				<option value="iDeal">iDeal</option>
+			</select>
+		</div>
+
+		<br>
+
+		<div>
+			<label for="subscrib">subscribe:</label>
+			<input type="checkbox" id="subscribe" name="subscribe">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="reset">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="submit">
+		</div>
+	</form>
+	
+	<br>
+	<hr>
+
+	<!--paragraphs-->
+	<p style="color:#2D4263;background-color:#C84B31;">Ik ben makelaar in koffi, en woon op de Lauriergracht No 37. Het is mijn gewoonte niet, romans te schrijven, of zulke dingen, en het heeft dan ook lang geduurd, voor ik er toe overging een paar riem papier extra te bestellen</p>
+	<p style="color:#2D4263">en het <b>werk aan</b> te <strong>vangen</strong>, dat gij, <em>lieve lezer</em>, <i>zoâven in</i> de hand hebt genomen, en dat ge lezen moet als ge makelaar in koffie zijt, <span style="background-color:cyan;color:rgb(255, 255, 255)">of als ge wat anders zijt. Niet alleen dat ik nooit iets schreef wat naar een roman geleek, maar ik houd er zelfs niet van,</span> iets dergelijks te lezen, omdat ik een man van zaken ben.</p>
+	<hr>
+
+	<!--link to other page-->
+	<a style="color:#C84B31 ;" href="page2.html" target=_self title="Link to page 2">
+		Go to page 2
+	</a>
+	<br>
+
+	<!--link to send email-->
+	<a style="color:#C84B31 ;" href=mailto:emilemuntinga@gmail.com title="Send me an email!">
+		Email me
+	</a>
+	<br>
+	<hr>
+
+	<!--image as link-->
+	<h6>click the image below for cool faces</h6>
+	<a href="https://lenny-face-generator.textsmilies.com/?cr=bW91dGh%2Bdy5udy5pZV9leWVzfncubzEuNHdfZWFyc34xNC0xNQ%3D%3D">
+	<img src="man with cat png.png" height=184 width=580 alt="This is a rather beautiful image of a 3D man inside a 3D cat, widened out to make it extra good looking." title="This is a rather beautiful image of a 3D man inside a 3D cat, widened out to make it extra good looking. (click to have fun)">
+	</a>
+	
+	<!--video-->
+	<video src="Counter-Strike_ Global Offensive 2021-11-02 19-23-00.mp4" height=300 controls></video>
+
+	<!--text formatting-->
+	<div style="color:#C84B31;background-color: rgb(147, 214, 147);">
+		<p>This is some normal text</p>
+		<p>This is some <b>bold</b> text</p>
+		<p>This is some <i>italic</i> text</p>
+		<p>This is some <big>big</big> text</p>
+		<p>This is some <small>small</small> text</p>
+		<p>This is some <sub>subscript</sub> text</p>
+		<p>This is some <sup>superscript</sup> text</p>
+		<p>This is some <ins>inserted</ins> text</p>
+		<p>This is some <del>deleted</del> text</p>
+		<p>This is some <mark>marked</mark> text</p>
+	
+	<!--lists-->
+	<h4>Unordered List</h4>
+	<ul>
+		<li>pizza dough</li>
+		<li>bread
+			<ul>
+				<li>tiger bread</li>
+				<li>brown bread</li>
+			</ul>
+		</li>
+		<li>peanut butter</li>
+	</ul>
+
+	<h4>Ordered List</h4>
+	<ol type="A"> <!--1,A,a,I,i-->
+		<li>opstaan</li>
+		<li>bed opmaken</li>
+		<li>random kleren aandoen</li>
+		<li>ontbijten</li>
+		<li>douchen</li>
+		<li>misschien boterhammen maken en in tas stoppen</li>
+		<li>tanden poetsen</li>
+		<li>weggaan</li>
+	</ol>
+
+	<h4>Description List</h4>
+	<dl>
+		<dt>HTML</dt>
+		<dd>This adds structure to a webpage</dd>
+		<dt>CSS</dt>
+		<dd>This adds style to a webpage</dd>
+		<dt>JavaScript</dt>
+		<dd>This adds functionality to a webpage</dd>
+	</dl>
+
+	<h3>Slaapuren Emile</h3>
+
+	</div>
+
+	<table bgcolor=black width='700'>
+		<tr bgcolor="teal">
+			<th width="100">Monday</th>
+			<th width="100">Tuesday</th>
+			<th width="100">Wednesday</th>
+			<th width="100">Thursday</th>
+			<th width="100">Friday</th>
+			<th width="100">Saturday</th>
+			<th width="100">Sunday</th>
+		</tr>
+		<tr bgcolor="lightblue" align=center>
+			<td>11pm-7am</td>
+			<td>11pm-7am</td>
+			<td>11pm-7am</td>
+			<td>11pm-7am</td>
+			<td>11pm-7am</td>
+			<td>1am-10am</td>
+			<td>1am-10am</td>
+		</tr>
+	</table>
+
+
+	<h3>The website I primarily used for colors for this website.</h3>
+	<iframe src="https://www.colorhunt.co" width="750" height="400"></iframe>
+	<br>
+	<br>
+	<hr>
+	<button onclick="doSomething()" style="background-color: #2D4263; color: #ECDBBA;border-radius:5px;height: 50px;width:150px;font-size:large;font-family: sans-serif;"><i>mysterious button</i></button>
+	
+	<p id="test">Hello</p>
+
+	<script>
+		function doSomething(){
+			document.getElementById("test").innerHTML = "Goodbye";
+		}
+	</script>
+
+	</body>
+ 
+
+
+</html>
